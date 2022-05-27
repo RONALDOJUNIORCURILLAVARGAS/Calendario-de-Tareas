@@ -1,8 +1,7 @@
 <template>
-  <button class="btn btn-primary">
+  <button class="btn btn-primary" @click="this.$emit('on:click')">
       <i class="fa fa-2x"
       :class="icon"
-      
       ><!-- Al  poner :class se hace un append solo se puede hacer una vez no se puede poner dos veces : class-->
       </i>
   </button>
